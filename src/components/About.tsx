@@ -4,6 +4,12 @@ import { Postgresql } from "@dev.icons/react";
 import { SiPydantic } from "react-icons/si";
 import { _React } from "@dev.icons/react";
 import Skills from './Skills'
+import { FaGithub } from "react-icons/fa";
+import { RiVercelLine } from "react-icons/ri";
+import { SiRender } from "react-icons/si";
+
+
+
 // import { TypeAnimation } from 'react-type-animation';
 // import { useState, useEffect, useRef } from 'react'
 
@@ -56,7 +62,7 @@ return(
 
       <p className="text-center font-sans text-[#e8dbcc] text-[15px] md:text-[20px] xl:text-[25px] xl:px-10 w-full md:pt-[15px] pt-[7px] " 
       >I'm driven by building technology that makes people's lives easier and more accessible. 
-      A proud  <a className="text-[#F4C9D6] text-center font-sans text-[15px] md:text-[20px] xl:text-[25px] text-[#F4C9D6] underline hover:font-bold  "  href="https://meritpages.com/nazifa"> Dean's List</a> 
+      A proud  <a target="_blank" className="text-[#F4C9D6] text-center font-sans text-[15px] md:text-[20px] xl:text-[25px] text-[#F4C9D6] underline hover:font-bold  "  href="https://meritpages.com/nazifa"> Dean's List</a> 
         {' '}     
 
       student  
@@ -82,7 +88,7 @@ return(
          {/* <div className=" max-w-6 md:max-w-15 border-b-2 md:border-b-8 border-pink-200 w-full"></div> */}
         {/* </div> */}
 
-    <div className="flex flex-wrap gap-3.5 md:gap-5 md:pt-[40px]  pt-[20px] justify-center">
+    <div className="flex flex-wrap gap-3.5 md:gap-6.5 md:pt-[40px]  pt-[20px] justify-center ">
         <Skills icon={<C className="w-4 h-4 md:w-8 md:h-8 " /> } name="C" />
         <Skills icon= {<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" className=" w-4 h-4    md:w-8 md:h-8"/>} name="Python"/>
         <Skills icon={<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" className="md:w-8 md:h-8  w-4 h-4   " />} name="Java" />
@@ -97,6 +103,16 @@ return(
         <Skills icon={<SiPydantic className="w-4 h-4 md:w-8 md:h-8 " />} name="Pydantic" />
         <Skills icon={<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg" className="md:w-8 md:h-8 w-4 h-4  " />} name="FastAPI" />
         <Skills icon={<_React className="w-4 h-4 md:w-8 md:h-8 "/>} name="React" />
+        <Skills icon={<RiVercelLine className="w-4 h-4 md:w-8 md:h-8 "/>} name="Vercel" />
+        <Skills icon={<img src="/neon-logomark-dark-color-safe-area.svg" className="w-4 h-4 md:w-8 md:h-8" />} name="Neon" />    
+        <Skills icon={<SiRender className="w-4 h-4 md:w-7 md:h-7 "/>} name="Render" />
+        <Skills icon={<FaGithub className="w-4 h-4 md:w-8 md:h-8 "/>} name="Git/GitHub" />
+        <Skills icon={<img src="/junit.svg" className="w-4 h-4 md:w-8 md:h-8 " />} name="JUnit" />
+
+
+
+
+
 
     </div>
 

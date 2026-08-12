@@ -15,7 +15,7 @@ function Intro() {
         </div>
 
         <TypeAnimation
-          className="  text-[45px] md:text-[60px] xl:text-[70px] 2xl:text-[90px] source-code-pro-n text-center xl:text-left leading-tight tracking-[-0.05em]  text-[#F4C9D6] "
+          className=" xl:pt-5 text-[45px] md:text-[60px] xl:text-[70px] 2xl:text-[90px] source-code-pro-n text-center xl:text-left leading-tight tracking-[-0.05em]  text-[#F4C9D6] "
           sequence={[
             'hi, i am nazifa!', 3000, 
             'welcome!', 3000, 
@@ -30,7 +30,7 @@ function Intro() {
 
         <h2 className=" text-center xl:text-left font-semibold cormorant-garamond-title  mt-4 md:mt-8 text-[#e8dbcc] xl:text-[40px] text-[23px] md:text-[30px]" >CS @ University at Buffalo </h2>
 
-        <p className="xl:text-left text-center font-sans mt-2 md:mt-5 text-[#E8DBCC]/[0.85] leading-[1.62] text-[15px] xl:text-[25px] md:text-[20px] w-full  xl:w-[700px] 2xl:w-[1000px]">
+        <p className="xl:text-left text-center font-sans mt-2 md:mt-5 text-[#E8DBCC]/[0.85] leading-[1.62] text-[15px] xl:text-[25px] md:text-[20px] w-full  xl:w-[650px] 2xl:w-[1000px]">
           I am a computer science student at the University at Buffalo, graduating Fall 2027. 
           I enjoy building full-stack applications, from designing databases to building the interfaces
           people actually use.
@@ -44,7 +44,7 @@ function Intro() {
           <a href="#projects"  className= "hover:bg-[#79605a] border border-[#F4C9D6] hover:border-[#5C3A30] bg-[#F4C9D6] text-[#5C3A30] hover:text-[#e8dbcc] items-center px-[13px] py-[13px] xl:px-[30px] xl:py-[20px] text-[12px] xl:text-[15px] rounded-full "
           > view my work →  </a>
       
-          <a href="mailto:nazifabari@gmail.com" className= "hover:bg-[#79605a] border border-[#e8dbcc]/[0.85] hover:border-[#5C3A30] px-[13px] py-[13px] xl:px-[30px] xl:py-[20px] rounded-full text-[12px] xl:text-[15px] text-[#e8dbcc] items-center"
+          <a target="_blank" href="mailto:nazifabari@gmail.com" className= "hover:bg-[#79605a] border border-[#e8dbcc]/[0.85] hover:border-[#5C3A30] px-[13px] py-[13px] xl:px-[30px] xl:py-[20px] rounded-full text-[12px] xl:text-[15px] text-[#e8dbcc] items-center"
           > get in touch </a>
         </div>
       </div>
