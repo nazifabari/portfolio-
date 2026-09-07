@@ -7,7 +7,7 @@ return (
 
 
 
-<div className= "bg-[#79605a]  fixed top-0 w-full">
+<div className= "bg-[#79605a] md:px-3  fixed top-0 w-full">
 
 <nav className = "flex p-3 font-semibold font-sans text-[#e8dbcc] text-[13px] md:text-lg justify-between items-center">
         <h1 className="tracking-[0.1em] tangerine-bold italic text-[20px] md:text-[30px] text-[#F4C9D6] "     >NB</h1>

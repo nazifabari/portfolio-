@@ -1,5 +1,7 @@
 import couvrantPhoto from '../assets/couvrant_image.png'
 import portfolioPhoto from '../assets/portfolio_image.png'
+import repmentorPhoto from '../assets/repmentor.png'
+
 
 
 
@@ -39,6 +41,7 @@ return(
                         <span className=" rounded-4xl border-1 border-[#F4C9D6] px-3 py-2 text-[#F4C9D6] font-bold text-[10px]" > Python </span>
                         <span className=" rounded-4xl border-1 border-[#F4C9D6] px-3 py-2 text-[#F4C9D6] font-bold text-[10px]" > Pydantic </span>
                         <span className=" rounded-4xl border-1 border-[#F4C9D6] px-3 py-2 text-[#F4C9D6] font-bold text-[10px]" > FastAPI </span> 
+
                     </div>
 
                     <div className = " flex gap-5 pt-4 mt-auto">
@@ -47,6 +50,32 @@ return(
                     </div>
                 </div>
             </article>
+
+
+          <article className = "bg-[#D4D4D4]/[0.10]  rounded-2xl border-1 border-[#FFFFFF]/[0.30] flex flex-col hover:-translate-y-5 transition-transform duration-400  " >
+            {/* project image */}
+        <a target="_blank" href="https://repmentor.vercel.app/"><img className = " w-full md:h-50 2xl:h-60 object-cover object-top rounded-t-2xl " src={repmentorPhoto} alt="project 3" /></a> 
+        
+                {/* text content div */}
+            <div className="flex flex-col flex-1 p-5           ">
+                <h3 className="font-bold font-sans italic text-[#e8dbcc] text-[20px] " >  Rep Mentor</h3>
+                <p className="font-sans text-[#e8dbcc] text-[15px] pt-1" >A real-time AI form coach that detects body landmarks via webcam, computes joint angles, and delivers live audio and on-screen feedback with rep counting.</p>
+
+                <div className=" flex flex-wrap pt-4 gap-3" >
+                    <span className=" rounded-4xl border-1 border-[#F4C9D6] px-3 py-2 text-[#F4C9D6] font-bold text-[10px]" > React </span>
+                    <span className=" rounded-4xl border-1 border-[#F4C9D6] px-3 py-2 text-[#F4C9D6] font-bold text-[10px]" > JavaScript </span>
+                    <span className=" rounded-4xl border-1 border-[#F4C9D6] px-3 py-2 text-[#F4C9D6] font-bold text-[10px]" > MediaPipe </span>
+                    <span className=" rounded-4xl border-1 border-[#F4C9D6] px-3 py-2 text-[#F4C9D6] font-bold text-[10px]" > Tailwind </span>
+                    <span className=" rounded-4xl border-1 border-[#F4C9D6] px-3 py-2 text-[#F4C9D6] font-bold text-[10px]" > Firebase </span>
+
+                </div>
+
+                <div className = " flex gap-5 pt-4 mt-auto">
+                    <a target="_blank"  className="text-[#e8dbcc] text-[12px] hover:font-bold  "  href="https://repmentor.vercel.app/">live demo ↗ </a>         
+                    <a target="_blank" className="text-[#e8dbcc] text-[12px] hover:font-bold "  href="https://github.com/nazifadev/rep-mentor">github</a>
+                </div>
+            </div>
+        </article>
 
 
 
@@ -72,7 +101,8 @@ return(
                         <a target="_blank" className="text-[#e8dbcc] text-[12px] hover:font-bold "  href="https://github.com/nazifadev/portfolio">github</a>
                     </div>
                 </div>
-            </article>
+                </article>
+
 
 
 

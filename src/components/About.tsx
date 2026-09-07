@@ -7,6 +7,10 @@ import Skills from './Skills'
 import { FaGithub } from "react-icons/fa";
 import { RiVercelLine } from "react-icons/ri";
 import { SiRender } from "react-icons/si";
+import { FirebaseIcon} from "@dev.icons/react";
+import { Numpy } from "@dev.icons/react";
+import { SiMediapipe } from "react-icons/si";
+
 
 
 
@@ -101,18 +105,16 @@ return(
         <Skills icon={<Postgresql className="w-4 h-4 md:w-8 md:h-8 "/>} name="PostgreSQL" />
         <Skills icon= {<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlalchemy/sqlalchemy-original.svg" className="md:w-8 md:h-8 w-4 h-4  " />} name="SQLAlchemy" />
         <Skills icon={<SiPydantic className="w-4 h-4 md:w-8 md:h-8 " />} name="Pydantic" />
+        <Skills icon={<Numpy  className="w-4 h-4 md:w-8 md:h-8 " />} name="NumPy" />
+        <Skills icon={<SiMediapipe  className="w-4 h-4 md:w-7 md:h-7 " />} name="MediaPipe" />
         <Skills icon={<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg" className="md:w-8 md:h-8 w-4 h-4  " />} name="FastAPI" />
         <Skills icon={<_React className="w-4 h-4 md:w-8 md:h-8 "/>} name="React" />
+        <Skills icon={<img src="/junit.svg" className="w-4 h-4 md:w-8 md:h-8 " />} name="JUnit" />
         <Skills icon={<RiVercelLine className="w-4 h-4 md:w-8 md:h-8 "/>} name="Vercel" />
         <Skills icon={<img src="/neon-logomark-dark-color-safe-area.svg" className="w-4 h-4 md:w-8 md:h-8" />} name="Neon" />    
         <Skills icon={<SiRender className="w-4 h-4 md:w-7 md:h-7 "/>} name="Render" />
+        <Skills icon={<FirebaseIcon  className="w-4 h-4 md:w-8 md:h-8 " />} name="Firebase" />
         <Skills icon={<FaGithub className="w-4 h-4 md:w-8 md:h-8 "/>} name="Git/GitHub" />
-        <Skills icon={<img src="/junit.svg" className="w-4 h-4 md:w-8 md:h-8 " />} name="JUnit" />
-
-
-
-
-
 
     </div>
 
